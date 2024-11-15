@@ -24,6 +24,7 @@ locals {
 
   tcp_checks = [
     { job = "ns1.vpsaddict.com-53", target = "ns1.vpsaddict.com:53" },
+    { job = "ns1.vpsaddict.com-22", target = "ns1.vpsaddict.com:22" },
     { job = "ns2.vpsaddict.com-53", target = "ns2.vpsaddict.com:53" },
     { job = "ns3.vpsaddict.com-53", target = "ns3.vpsaddict.com:53" },
     { job = "augustine.standouthost.com-3389", target = "augustine.standouthost.com:3389" }
