@@ -1,4 +1,10 @@
 terraform {
+  cloud {
+    organization = "Sohre"
+    workspaces {
+      name = "grafana-cloud"
+    }
+  }
   required_providers {
     grafana = {
       source = "grafana/grafana"
