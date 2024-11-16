@@ -14,7 +14,7 @@ locals {
     { job = "soh.re", target = "https://soh.re" },
     { job = "spam.soh.re", target = "https://spam.soh.re" },
     { job = "standouthost.com", target = "https://standouthost.com" },
-    { job = "statuscode.soh.re", target = "https://statuscode.soh.re" },
+    { job = "statuscode.soh.re", target = "https://statuscode.soh.re/200" },
     { job = "www.jmainguy.com", target = "https://www.jmainguy.com" },
     { job = "www.rightwaypropertycare.com", target = "https://www.rightwaypropertycare.com" },
     { job = "www.soh.re", target = "https://www.soh.re" },
@@ -24,7 +24,6 @@ locals {
 
   tcp_checks = [
     { job = "ns1.vpsaddict.com-53", target = "ns1.vpsaddict.com:53" },
-    { job = "ns1.vpsaddict.com-22", target = "ns1.vpsaddict.com:22" },
     { job = "ns2.vpsaddict.com-53", target = "ns2.vpsaddict.com:53" },
     { job = "ns3.vpsaddict.com-53", target = "ns3.vpsaddict.com:53" },
     { job = "augustine.standouthost.com-3389", target = "augustine.standouthost.com:3389" }
